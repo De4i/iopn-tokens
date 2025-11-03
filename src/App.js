@@ -3,10 +3,10 @@ import { ethers } from 'ethers';
 import './App.css';
 
 // GANTI 4 ALAMAT INI
-const USDC   = "0xGANTI_USDC";
-const USDT   = "0xGANTI_USDT";
-const DE4I   = "0xGANTI_DE4I";
-const FAUCET = "0xGANTI_FAUCET";
+const USDC   = "0x6890d8203D85d092d725Acc877F94F89d0bCE25a";
+const USDT   = "0xB54E7a3372C234126ff97352CABAC6de586A015e";
+const DE4I   = "0x1bF5Dde01be51d57C4A2bA1bC3ECc562DDa8583D";
+const FAUCET = "0xcf990Bb63EB80B175F99C726ff011bE406A50551";
 
 const ERC20 = ["function balanceOf(address) view returns (uint256)"];
 const FAUCET_ABI = ["function claim()"];
